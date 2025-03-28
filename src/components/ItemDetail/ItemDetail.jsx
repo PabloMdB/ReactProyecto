@@ -3,6 +3,7 @@ import ItemCount from '../ItemCount/ItemCount'
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router';
 import { fetchData } from '../fetchData';
+import Loader from '../Loader/Loader';
 
 
 function ItemDetail() {
@@ -34,7 +35,7 @@ setContador(1);
 
     return (
         loading ?
-            <p>Cargando</p> 
+            <Loader/>
 
             : 
             <div className='card  text-center p-1  bg-dark-subtle'>

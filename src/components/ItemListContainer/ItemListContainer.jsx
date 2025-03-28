@@ -1,5 +1,4 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-
 import { useEffect, useState} from 'react';
 import './ItemListContainer.css';
 import Item from '../Item/Item';
@@ -29,16 +28,8 @@ function ItemListContainer() {
                 }, 500);
             })
             .catch(err => console.error(err))
-
         }
-    // fetch(`https://jsonplaceholder.typicode.com/posts`)
-    // .then(response => response.json())
-    // .then(data => console.log(data))
-    // .catch(err => console.error(err));
     
-        //Deberiamos traer nuestros productos.
-        // setTimeout(() => {
-        // }, 2500);
     }, [categoria])
 
     return (
