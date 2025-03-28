@@ -1,0 +1,47 @@
+export const productos = [
+    { 
+        id:1,
+        nombre: "Monitor",
+        precio :100,
+        categoria:"computadora",
+        stock: 10,
+        descripcion: "monitor 100 pulgadas",
+        img:"",
+    },
+    { 
+        id:2,
+        nombre: "Teclado",
+        precio :50,
+        categoria:"computadora",
+        stock: 20,
+        descripcion: "Mecanico",
+        img:"",
+    },
+    { 
+        id:3,
+        nombre: "Celular MotoG20",
+        precio :140,
+        categoria:"celular",
+        stock: 25,
+        descripcion: "Moto G20",
+        img:"",
+    },
+    { 
+        id:4,
+        nombre: "Gabinete",
+        precio :80,
+        categoria:"computadora",
+        stock: 40,
+        descripcion: "Gabinete con coolers incluidos",
+        img:"",
+    },
+    { 
+        id:5,
+        nombre: "cargador Motorola",
+        precio :80,
+        categoria:"celular",
+        stock: 40,
+        descripcion: "pads de colores",
+        img:"",
+    }
+];
